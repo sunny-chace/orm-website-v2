@@ -30,7 +30,7 @@ import { useRef, useState, useEffect } from "react";
 export default function Home() {
   return (
     <div>
-      <h1 className="text-38 font-bold underline text-center">
+      <h1 className="termina text-38 font-bold underline text-center">
         Hello world!
       </h1>
     </div>
