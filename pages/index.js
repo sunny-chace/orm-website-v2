@@ -1,6 +1,6 @@
 // import HeroSection from "../Components/HeroSection";
 import { useRef, useState, useEffect } from "react";
-import Footer from "../Components/Footer";
+import Footer from "../components/Footer";
 
 // export default function Home() {
 
