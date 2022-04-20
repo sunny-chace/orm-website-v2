@@ -10,7 +10,8 @@ const Footer = () => {
     const { systemTheme, theme, setTheme } = useTheme();
 
     return (
-        <footer className={`${isDesktop && "snap-child-start"}`}>
+        // <footer className={`${isDesktop && "snap-child-start"}`}>
+        <>
             <div className="hidden lg:block bg-[#ECEAF0] dark:bg-neutral-850 pt-14 pb-12 px-[9%]">
                 <div className="flex items-center justify-between mb-12">
 
@@ -108,7 +109,8 @@ const Footer = () => {
 
                 </div>
             </div>
-        </footer>
+            {/* </footer> */}
+        </>
     )
 }
 
