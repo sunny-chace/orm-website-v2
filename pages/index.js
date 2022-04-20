@@ -1,6 +1,6 @@
 // import HeroSection from "../Components/HeroSection";
 import { useRef, useState, useEffect } from "react";
-// import Footer from "../components/Footer";
+import Footer from "../components/Footer";
 
 // export default function Home() {
 
@@ -25,7 +25,7 @@ export default function Home() {
           <div className="text-28 text-neutral-700 font-semibold lato">ORUM Swift</div>
           </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
