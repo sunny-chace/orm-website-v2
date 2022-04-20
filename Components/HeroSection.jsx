@@ -13,32 +13,6 @@ const HeroSection = () => {
     })
     const { systemTheme, theme, setTheme } = useTheme();
 
-    // const callbackFunction = (entries) => {
-    //     const [entry] = entries;
-    //     setIsVisible(entry.isIntersecting)
-    //     containerRef.current.scrollIntoView({ behavior: 'smooth' })
-    // }
-
-    // const options = {
-    //     root: null,
-    //     rootMargin: '0px',
-    //     threshold: '0.5'
-    // }
-
-    // useEffect(() => {
-    //     const observer = new IntersectionObserver(callbackFunction, options);
-    //     if (containerRef.current) {
-    //         observer.observe(containerRef.current)
-    //     }
-
-    //     return () => {
-    //         if (containerRef.current) {
-    //             observer.unobserve(containerRef.current)
-    //         }
-    //     }
-
-    // }, [containerRef, options])
-
     useEffect(() => {
         setTimeout(() => {
             if (apyPercent < 14) {

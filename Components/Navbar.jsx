@@ -77,7 +77,6 @@ const Navbar = () => {
                             </a>
                         </Link>
                     </div>
-
                     <div
                         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
                         className="border border-[1px] border-neutral-900 transiton duration-500 dark:border-neutral-50 rounded-[12px] w-[44px] h-[44px] lg:w-[46px] lg:h-[46px] flex items-center justify-center cursor-pointer">
