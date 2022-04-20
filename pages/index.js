@@ -25,6 +25,7 @@ export default function Home() {
           <div className="text-28 text-neutral-700 font-semibold lato">ORUM Swift</div>
           </div>
       </div>
+      <Footer />
     </div>
   )
 }
