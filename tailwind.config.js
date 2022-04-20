@@ -41,49 +41,50 @@ module.exports = {
           50: "#E34850",
         },
       },
+      fontSize: {
+        12: ['0.75rem', {
+          lineHeight: '150%',
+          letterSpacing: '0rem',
+        }],
+        14: ['0.875rem', {
+          lineHeight: '150%',
+          letterSpacing: '0rem'
+        }],
+        16: ['1rem', {
+          lineHeight: '150%',
+          letterSpacing: '0rem'
+        }],
+        21: ['1.3125rem', {
+          lineHeight: '150%',
+          letterSpacing: '0rem'
+        }],
+        24: ['1.5rem', {
+          lineHeight: '150%',
+          letterSpacing: '0rem'
+        }],
+        28: ['1.75rem', {
+          lineHeight: '140%',
+          letterSpacing: '0rem'
+        }],
+        30: ['1.875rem', {
+          lineHeight: '140%',
+          letterSpacing: '0rem'
+        }],
+        32: ['2rem', {
+          lineHeight: '140%',
+          letterSpacing: '0rem'
+        }],
+        38: ['2.375rem', {
+          lineHeight: '130%',
+          letterSpacing: '0rem'
+        }],
+        40: ['2.5rem', {
+          lineHeight: '140%',
+          letterSpacing: "-0.01em"
+        }]
+      },
     },
-    fontSize: {
-      12: ['0.75rem', {
-        lineHeight: '150%',
-        letterSpacing: '0rem',
-      }],
-      14: ['0.875rem', {
-        lineHeight: '150%',
-        letterSpacing: '0rem'
-      }],
-      16: ['1rem', {
-        lineHeight: '150%',
-        letterSpacing: '0rem'
-      }],
-      21: ['1.3125rem', {
-        lineHeight: '150%',
-        letterSpacing: '0rem'
-      }],
-      24: ['1.5rem', {
-        lineHeight: '150%',
-        letterSpacing: '0rem'
-      }],
-      28: ['1.75rem', {
-        lineHeight: '140%',
-        letterSpacing: '0rem'
-      }],
-      30: ['1.875rem', {
-        lineHeight: '140%',
-        letterSpacing: '0rem'
-      }],
-      32: ['2rem', {
-        lineHeight: '140%',
-        letterSpacing: '0rem'
-      }],
-      38: ['2.375rem', {
-        lineHeight: '130%',
-        letterSpacing: '0rem'
-      }],
-      40: ['2.5rem', {
-        lineHeight: '140%',
-        letterSpacing: "-0.01em"
-      }]
-    },
+    
   },
   plugins: [],
 }
