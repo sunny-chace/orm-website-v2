@@ -41,6 +41,12 @@ module.exports = {
           50: "#E34850",
         },
       },
+      fontFamily: {
+        "tablet-gothic": ["tablet-gothic"],
+        "minerva-modern": ["minvera-modern"],
+        "roboto": ["roboto"],
+        "termina": ["termina, sans-serif"]
+      },
       fontSize: {
         12: ['0.75rem', {
           lineHeight: '150%',
